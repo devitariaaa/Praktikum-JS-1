@@ -1,0 +1,44 @@
+<h1>Kurs Mata Uang</h1>
+    1$ = Rp 14.650 ,-
+    <br>
+    <table border="1">
+        <tr>
+            <td>Input Nilai IDR</td>
+            <td>Dollar</td>
+            <td>Hasil Konversi IDR ke Dollar</td>
+        </tr>
+        <tr>
+            <td>Rp<input type="number" name="" id="idr" value=""></td>
+            <td><button onclick="convert()">Convert</button></td>
+            <td id="hasilKurs"></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+
+    <h1>Parkir</h1>
+    <table>
+        <tr>
+            <th>Jam Masuk</th>
+            <th>Jam Keluar</th>
+            <th></th>
+            <th>Biaya</th>
+        </tr>
+        <tr>
+            <th><input type="number" name="" value="" id="jmasuk" min="0" max="24"></th>
+            <th><input type="number" name="" value="" id="jkeluar" min="0" max="24"></th>
+            <th><button onclick="total()">Submit</button></th>
+            <th id="total"></th>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+
+    <h1>Penjumlahan</h1>
+    <input type="text" value="0" id="bil1" onchange="hitung()"> + <input type="text" value="0" id="bil2"
+        onchange="hitung()"> = <input type="text" value="0" id="bil3">
+</body>
+
+</html>
